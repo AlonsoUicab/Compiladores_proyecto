@@ -1,6 +1,6 @@
 package jflexproyecto;
 public enum Tokens {
-    Linea,
+ Linea,
     Comillas,
     T_dato,
     Cadena,
@@ -29,6 +29,6 @@ public enum Tokens {
     P_coma,
     Identificador,
     Numero,
-    Reservadas,
     ERROR
+
 }

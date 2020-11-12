@@ -107,6 +107,3 @@ espacio=[ ,\t,\r]+
 
 /* Error de analisis */
  . {return ERROR;}
-
-
-
