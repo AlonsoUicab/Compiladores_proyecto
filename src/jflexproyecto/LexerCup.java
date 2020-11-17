@@ -713,7 +713,7 @@ class LexerCup implements java_cup.runtime.Scanner {
           { return new java_cup.runtime.Symbol(sym.EOF); }
       }
       else {
-        switch (zzAction < 0 ? zzAction : ZZ_ACTION[zzAction]) {
+           switch (zzAction < 0 ? zzAction : ZZ_ACTION[zzAction]) {
           case 1:
             { return new Symbol(sym.ERROR, (int) yychar, yyline, yytext());
             }
@@ -871,6 +871,7 @@ class LexerCup implements java_cup.runtime.Scanner {
           case 62: break;
           default:
             zzScanError(ZZ_NO_MATCH);
+
         }
       }
     }

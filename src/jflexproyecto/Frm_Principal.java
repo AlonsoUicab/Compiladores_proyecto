@@ -29,7 +29,7 @@ public class Frm_Principal extends javax.swing.JFrame {
           public void rsyntax(){
              txtEntrada.setSyntaxEditingStyle(SyntaxConstants.SYNTAX_STYLE_JAVA);
              txtEntrada.setHighlightCurrentLine(false);
-             txtEntrada.setText("//Hola mundo");
+             txtEntrada.setText("//Bienvenido al programa");
              RTextScrollPane sp = new RTextScrollPane(txtEntrada);
              jPanelPrincipal.add(sp);
           }
@@ -214,7 +214,7 @@ public class Frm_Principal extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnAnalizarActionPerformed(java.awt.event.ActionEvent evt) {                                            
-//GEN-FIRST:event_btnAnalizarActionPerformed
+                                            
            try {
             // Crear clase con las reglas ...
             analizarLexico();
@@ -226,7 +226,7 @@ public class Frm_Principal extends javax.swing.JFrame {
             java.util.logging.Logger.getLogger(Frm_Principal.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
 
-    }//GEN-LAST:event_btnAnalizarLexActionPerformed
+    }                                              
 
 
 
@@ -246,7 +246,7 @@ public class Frm_Principal extends javax.swing.JFrame {
         }  
 
 
-    }//GEN-LAST:event_btnAnalizarActionPerformed
+    }                                           
 
     /**
      * @param args the command line arguments
